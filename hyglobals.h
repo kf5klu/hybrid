@@ -16,11 +16,7 @@ typedef unsigned int    u32b; //32-bit typedef
 typedef unsigned long   u64b; //64-bit typedef
 
 //Define constant variables
-const int dev_num 	=  	0;  	//A2D device number
-const int accel 	=  	0;   	//Channel assigned to accelerator
-const int brake 	=  	1;    	//Channel assigned to brake
-const int clutch 	= 	2;   	//Channel assigned to clutch
-const int Hysteresis	=	75;
+
 #ifndef Points_To_Port
 #define Points_To_Port
 int mainfp=0;
